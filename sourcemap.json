@@ -1,0 +1,33 @@
+{
+    "name": "GameName",
+    "className": "DataModel",
+    "filePaths": [
+        "src/init.meta.json",
+        "default.project.json"
+    ],
+    "children": [
+        {
+            "name": "ServerScriptService",
+            "className": "ServerScriptService",
+            "filePaths": [
+                "src/ServerScriptService/init.meta.json"
+            ],
+            "children": [
+                {
+                    "name": "a",
+                    "className": "ModuleScript",
+                    "filePaths": [
+                        "src/ServerScriptService/a.luau"
+                    ]
+                },
+                {
+                    "name": "b",
+                    "className": "ModuleScript",
+                    "filePaths": [
+                        "src/ServerScriptService/b.luau"
+                    ]
+                }
+            ]
+        }
+    ]
+}

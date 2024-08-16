@@ -1,0 +1,23 @@
+<roblox version="4">
+  <Item class="ServerScriptService" referent="0">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="ModuleScript" referent="1">
+      <Properties>
+        <string name="Name">a</string>
+        <string name="Source"><![CDATA[task.spawn(function()
+	require(game.ServerScriptService.b)
+end)
+]]></string>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="2">
+      <Properties>
+        <string name="Name">b</string>
+        <string name="Source"><![CDATA[require(game.ServerScriptService.a)
+]]></string>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>
